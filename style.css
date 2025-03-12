@@ -10,6 +10,16 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 575.98px) {
+    .inner-title{
+        font-size: 35px!important;
+        font-weight: 700;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}
+
 .section_one .banner_2 {
     width: 100%;
     display: none;
@@ -46,10 +56,18 @@
     background-position: center;
 }
 
+
 .section_four .box-product{
     background-color: #59788f;
     border-radius: 15px;
     padding: 10px 5px 15px 5px;
+}
+
+@media screen and (max-width: 575.98px) {
+    .section_four .desc{
+        width: 100%!important;
+    }
+
 }
 
 .section_five{
@@ -121,18 +139,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0;
-}
-
-.divider hr {
-    flex-grow: 1;
-    border-top: 1px solid white;
-    margin: 0 10px;
+    margin: 15px 0;
 }
 
 .divider span {
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -142,32 +154,27 @@
     margin-right: 10px;
 }
 
-.google {
-    width: 270px;
-    background-color: white;
-    color: #333;
-    border: 1px solid #ccc;
+.section_eight input{
+    padding: 10px 40px;
+    background-color: #b7b5b500;
+    border: 2px solid gray;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: gray ;
 }
 
-.google:hover {
-    background-color: #cfcfcf;
-    color: #333;
+.section_eight input::placeholder{
+    color: gray;
 }
 
-.facebook {
-    width: 270px;
-    background-color: #1877f2;
-    color: white;
-}
 
-.facebook:hover {
-    background-color: #135cb1;
-}
+
+
 
 @media screen and (max-width: 992px) {
     .section_eight{
         background-image: none;
-        background-color: #b7b5b5;
+        background-color: gray;
     }
 
 }
